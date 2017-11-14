@@ -1,0 +1,132 @@
+header {
+	text-align: center;
+	background-image: url("../img/header.jpg");
+	background-size: cover;
+	min-height: 100vh;
+
+
+}
+
+nav a, 
+nav a span {
+	color: #fff;
+}
+
+nav a {
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+}
+
+nav a:hover {
+	color: #48505F;
+}
+
+nav div li a {
+	color: white;
+}
+
+.navbar-default{
+    background:transparent;
+    border:none !important;
+}
+
+h1 {
+	padding-top: 15%;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: #AF8E6F;
+	font-size: 5em;
+}
+
+.tagline {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: #AF8E6F;
+	font-size: 2em;
+
+}
+
+hr {
+	width: 50%;
+}
+
+.btn {
+	font-family: 'Quattrocento', sans-serif;
+}
+.btn:hover {
+	background-color: #48505F;
+	color: #fff;
+}
+
+.about {
+	margin-bottom: 10%;
+	margin-top: 10%;
+	text-align: center;
+	font-family: 'Quattrocento', sans-serif;
+
+}
+
+.about-header {
+	margin-bottom: 30px;
+}
+
+.about h3 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: #48505F;
+}
+
+.class-list h4 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+	text-align: left;
+	padding-bottom: 40px;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+.class-list {
+
+	background-color:  #AF8E6F;
+	color: white;
+	font-size: 1em;
+	font-family: 'Quattrocento', sans-serif;
+	min-width: 100vh;
+
+}
+
+.classes-img {
+	background-image: url(../img/yogagirl.jpg);
+	background-size: cover;
+	min-height: 600px;
+}
+
+
+footer {
+	text-align: center;
+	background-color: #48505F;
+	color: #AF8E6F;
+	font-size: 0.75em;
+	padding: 90px;
+}
+
+#icons, 
+.icons {
+	padding-bottom: 10px;
+	color:  #AF8E6F;
+}
+
+.icons:hover {
+	color: #fff;
+
+}
+
+#info-section {
+	margin-bottom: 100px;
+}
+
+.info-img {
+	justify-content: center;
+}
+
+
