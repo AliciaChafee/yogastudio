@@ -30,6 +30,12 @@ nav div li a {
     border:none !important;
 }
 
+.nav-teacher {
+	background-color: #D0F4C7;
+}
+
+
+
 h1 {
 	padding-top: 15%;
 	font-family: 'Oswald', sans-serif;
@@ -79,9 +85,9 @@ hr {
 .class-list h4 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 2em;
-	text-align: left;
+	text-align: center;
 	padding-bottom: 40px;
-	padding-top: 20px;
+	padding-top: 40px;
 	padding-left: 30px;
 }
 
@@ -91,14 +97,19 @@ hr {
 	color: white;
 	font-size: 1em;
 	font-family: 'Quattrocento', sans-serif;
-	min-width: 100vh;
+	max-width: 100%;
+	text-align: center;
 
+}
+
+.class-list > ul {
+	list-style: none;
 }
 
 .classes-img {
 	background-image: url(../img/yogagirl.jpg);
 	background-size: cover;
-	min-height: 600px;
+	max-height: 600px;
 }
 
 
@@ -130,3 +141,39 @@ footer {
 }
 
 
+/*  Contact page styles */
+
+.contact_tagline {
+	color: #AF8E6F;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+form {
+	padding-bottom: 50px;
+}
+
+/* Teachers Page */
+
+.card {
+	margin: auto;
+
+}
+
+.teachers {
+	margin: 100px auto;
+}
+
+
+
+@media (min-width: 767px) { 
+
+.classes-img {
+	
+	min-height: 600px;
+}
+	
+.class-list {
+	font-size: 1.5em;
+}
+}

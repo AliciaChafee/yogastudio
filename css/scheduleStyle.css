@@ -1,0 +1,64 @@
+
+.navbar {
+	background-color: #D0F4C7;
+}
+
+nav a {
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+}
+
+nav a:hover {
+	color: #48505F;
+}
+
+nav div li a {
+	color: white;
+}
+
+nav a span {
+	color: #fff;
+}
+
+table {
+	margin: 100px auto;
+
+}
+
+h1 {
+	text-align: center;
+	padding-top: 15%;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: #AF8E6F;
+	font-size: 5em;
+}
+
+
+footer {
+	margin-top: 100px;
+	text-align: center;
+	background-color: #48505F;
+	color: #AF8E6F;
+	font-size: 0.75em;
+	padding: 90px;
+}
+
+#icons, 
+.icons {
+	padding-bottom: 10px;
+	color:  #AF8E6F;
+}
+
+.icons:hover {
+	color: #fff;
+
+}
+
+#info-section {
+	margin-bottom: 100px;
+}
+
+.info-img {
+	justify-content: center;
+}
