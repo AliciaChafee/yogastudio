@@ -1,0 +1,61 @@
+.yogaClasses {
+	padding-top: 50px;
+}
+
+.class-list p {
+	padding: 10px 20px;
+}
+
+.class2 {
+	background-color: #48505F;
+}
+
+.classes-img-morning {
+	background-image: url(../img/morning.jpg);
+	background-size: cover;
+	min-height: 600px;
+}
+
+.classes-img-restorative {
+	background-image: url(../img/restorative.jpg);
+	background-size: cover;
+	min-height: 600px;
+}
+
+.classes-img-couples {
+	background-image: url(../img/couples.jpg);
+	background-size: cover;
+	min-height: 600px;
+}
+
+.classes-img-acro {
+	background-image: url(../img/acro.jpg);
+	background-size: cover;
+	min-height: 600px;
+}
+
+.classes-img-beginner {
+	background-image: url(../img/beginner.jpg);
+	background-size: cover;
+	min-height: 600px;
+}
+
+p.para {
+	font-size: 1rem;
+}
+
+
+
+@media (max-width: 576px) { 
+	div.class-list {
+		font-size: .75rem;
+		min-width: 100%;
+	}
+
+ }
+
+
+
+
+
+
